@@ -3,7 +3,7 @@
 host="$1"
 shift
 
-# Используем параметры из .env или стандартные
+
 PG_USER=${POSTGRES_USER:-user}
 PG_PASSWORD=${POSTGRES_PASSWORD:-password}
 PG_DB=${POSTGRES_DB:-auth_db}

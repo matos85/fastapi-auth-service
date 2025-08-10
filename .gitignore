@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+venv/
+env/
+
+# Docker
+Dockerfile
+docker-compose.yml
+.env
+
+# Alembic
+alembic.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Логи и данные
+*.log
+*.sqlite
+*.db
+*.pid
+*.pid.lock
+
+# Тестовые данные
+test_data/

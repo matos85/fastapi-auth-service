@@ -4,7 +4,6 @@ class Token(BaseModel):
     access_token: str
     token_type: str
 
-    # Для Pydantic v2 используем model_config вместо класса Config
     model_config = ConfigDict(
         json_schema_extra={
             "example": {
